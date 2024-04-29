@@ -29,7 +29,6 @@ app.use(express.static("public"));
 const config = require("./config.js");
 const { use } = require("passport");
 global.config = config;
-this.fetch = require("node-fetch");
 const DiscordOauth2 = require("discord-oauth2");
 const oauth = new DiscordOauth2({
   clientId: config.bot.botID,
