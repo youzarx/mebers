@@ -12,7 +12,7 @@ var path = require("path");
 var bodyParser = require("body-parser")
 const Database = require('st.db')
 const usersdata = new Database({
-  path: './database/users.json',
+  path: './users.json',
   databaseInObject: true
 })
 const DiscordStrategy = require('passport-discord').Strategy
